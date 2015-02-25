@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Meteor.js deployment demo for Clever-Cloud",
   "scripts": {
-    "start": "./start.sh"
+    "install": "./install.sh",
+    "start": "node my_app/main.js"
   },
   "repository": {
     "type": "git",
